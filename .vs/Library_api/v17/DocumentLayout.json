@@ -1,0 +1,207 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Instala\u00E7\u00F5es\\Livraria\\Library_api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ED4D0718-4C3B-4CED-A8A7-B3E9E2777B84}|Library_api\\Library_api.csproj|d:\\instala\u00E7\u00F5es\\livraria\\library_api\\library_api\\.gitignore||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{ED4D0718-4C3B-4CED-A8A7-B3E9E2777B84}|Library_api\\Library_api.csproj|solutionrelative:library_api\\.gitignore||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED4D0718-4C3B-4CED-A8A7-B3E9E2777B84}|Library_api\\Library_api.csproj|d:\\instala\u00E7\u00F5es\\livraria\\library_api\\library_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED4D0718-4C3B-4CED-A8A7-B3E9E2777B84}|Library_api\\Library_api.csproj|solutionrelative:library_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED4D0718-4C3B-4CED-A8A7-B3E9E2777B84}|Library_api\\Library_api.csproj|d:\\instala\u00E7\u00F5es\\livraria\\library_api\\library_api\\controllers\\emprestimoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED4D0718-4C3B-4CED-A8A7-B3E9E2777B84}|Library_api\\Library_api.csproj|solutionrelative:library_api\\controllers\\emprestimoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED4D0718-4C3B-4CED-A8A7-B3E9E2777B84}|Library_api\\Library_api.csproj|d:\\instala\u00E7\u00F5es\\livraria\\library_api\\library_api\\models\\locatario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED4D0718-4C3B-4CED-A8A7-B3E9E2777B84}|Library_api\\Library_api.csproj|solutionrelative:library_api\\models\\locatario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED4D0718-4C3B-4CED-A8A7-B3E9E2777B84}|Library_api\\Library_api.csproj|d:\\instala\u00E7\u00F5es\\livraria\\library_api\\library_api\\models\\livro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED4D0718-4C3B-4CED-A8A7-B3E9E2777B84}|Library_api\\Library_api.csproj|solutionrelative:library_api\\models\\livro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED4D0718-4C3B-4CED-A8A7-B3E9E2777B84}|Library_api\\Library_api.csproj|d:\\instala\u00E7\u00F5es\\livraria\\library_api\\library_api\\models\\emprestimo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED4D0718-4C3B-4CED-A8A7-B3E9E2777B84}|Library_api\\Library_api.csproj|solutionrelative:library_api\\models\\emprestimo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED4D0718-4C3B-4CED-A8A7-B3E9E2777B84}|Library_api\\Library_api.csproj|d:\\instala\u00E7\u00F5es\\livraria\\library_api\\library_api\\controllers\\locatarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED4D0718-4C3B-4CED-A8A7-B3E9E2777B84}|Library_api\\Library_api.csproj|solutionrelative:library_api\\controllers\\locatarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED4D0718-4C3B-4CED-A8A7-B3E9E2777B84}|Library_api\\Library_api.csproj|d:\\instala\u00E7\u00F5es\\livraria\\library_api\\library_api\\controllers\\livroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED4D0718-4C3B-4CED-A8A7-B3E9E2777B84}|Library_api\\Library_api.csproj|solutionrelative:library_api\\controllers\\livroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Instala\u00E7\u00F5es\\Livraria\\Library_api\\Library_api\\Migrations\\20241203175528_AlterarDataNascimentoParaAno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library_api\\Migrations\\20241203175528_AlterarDataNascimentoParaAno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Instala\u00E7\u00F5es\\Livraria\\Library_api\\Library_api\\Migrations\\20241203172313_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library_api\\Migrations\\20241203172313_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED4D0718-4C3B-4CED-A8A7-B3E9E2777B84}|Library_api\\Library_api.csproj|d:\\instala\u00E7\u00F5es\\livraria\\library_api\\library_api\\data\\librarycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED4D0718-4C3B-4CED-A8A7-B3E9E2777B84}|Library_api\\Library_api.csproj|solutionrelative:library_api\\data\\librarycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "D:\\Instala\u00E7\u00F5es\\Livraria\\Library_api\\Library_api\\.gitignore",
+              "RelativeDocumentMoniker": "Library_api\\.gitignore",
+              "ToolTip": "D:\\Instala\u00E7\u00F5es\\Livraria\\Library_api\\Library_api\\.gitignore",
+              "RelativeToolTip": "Library_api\\.gitignore",
+              "ViewState": "AgIAAHsBAAAAAAAAAAAowJEBAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-03T18:21:04.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmprestimosController.cs",
+              "DocumentMoniker": "D:\\Instala\u00E7\u00F5es\\Livraria\\Library_api\\Library_api\\Controllers\\EmprestimosController.cs",
+              "RelativeDocumentMoniker": "Library_api\\Controllers\\EmprestimosController.cs",
+              "ToolTip": "D:\\Instala\u00E7\u00F5es\\Livraria\\Library_api\\Library_api\\Controllers\\EmprestimosController.cs",
+              "RelativeToolTip": "Library_api\\Controllers\\EmprestimosController.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAAwGwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T17:48:45.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LocatariosController.cs",
+              "DocumentMoniker": "D:\\Instala\u00E7\u00F5es\\Livraria\\Library_api\\Library_api\\Controllers\\LocatariosController.cs",
+              "RelativeDocumentMoniker": "Library_api\\Controllers\\LocatariosController.cs",
+              "ToolTip": "D:\\Instala\u00E7\u00F5es\\Livraria\\Library_api\\Library_api\\Controllers\\LocatariosController.cs",
+              "RelativeToolTip": "Library_api\\Controllers\\LocatariosController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAgwBkAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T17:43:49.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LivrosController.cs",
+              "DocumentMoniker": "D:\\Instala\u00E7\u00F5es\\Livraria\\Library_api\\Library_api\\Controllers\\LivrosController.cs",
+              "RelativeDocumentMoniker": "Library_api\\Controllers\\LivrosController.cs",
+              "ToolTip": "D:\\Instala\u00E7\u00F5es\\Livraria\\Library_api\\Library_api\\Controllers\\LivrosController.cs",
+              "RelativeToolTip": "Library_api\\Controllers\\LivrosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T17:24:36.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Emprestimo.cs",
+              "DocumentMoniker": "D:\\Instala\u00E7\u00F5es\\Livraria\\Library_api\\Library_api\\Models\\Emprestimo.cs",
+              "RelativeDocumentMoniker": "Library_api\\Models\\Emprestimo.cs",
+              "ToolTip": "D:\\Instala\u00E7\u00F5es\\Livraria\\Library_api\\Library_api\\Models\\Emprestimo.cs",
+              "RelativeToolTip": "Library_api\\Models\\Emprestimo.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAA1wBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T17:13:13.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Livro.cs",
+              "DocumentMoniker": "D:\\Instala\u00E7\u00F5es\\Livraria\\Library_api\\Library_api\\Models\\Livro.cs",
+              "RelativeDocumentMoniker": "Library_api\\Models\\Livro.cs",
+              "ToolTip": "D:\\Instala\u00E7\u00F5es\\Livraria\\Library_api\\Library_api\\Models\\Livro.cs",
+              "RelativeToolTip": "Library_api\\Models\\Livro.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T17:12:56.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Locatario.cs",
+              "DocumentMoniker": "D:\\Instala\u00E7\u00F5es\\Livraria\\Library_api\\Library_api\\Models\\Locatario.cs",
+              "RelativeDocumentMoniker": "Library_api\\Models\\Locatario.cs",
+              "ToolTip": "D:\\Instala\u00E7\u00F5es\\Livraria\\Library_api\\Library_api\\Models\\Locatario.cs",
+              "RelativeToolTip": "Library_api\\Models\\Locatario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T17:13:30.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Instala\u00E7\u00F5es\\Livraria\\Library_api\\Library_api\\Program.cs",
+              "RelativeDocumentMoniker": "Library_api\\Program.cs",
+              "ToolTip": "D:\\Instala\u00E7\u00F5es\\Livraria\\Library_api\\Library_api\\Program.cs",
+              "RelativeToolTip": "Library_api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T17:15:17.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20241203175528_AlterarDataNascimentoParaAno.cs",
+              "DocumentMoniker": "D:\\Instala\u00E7\u00F5es\\Livraria\\Library_api\\Library_api\\Migrations\\20241203175528_AlterarDataNascimentoParaAno.cs",
+              "RelativeDocumentMoniker": "Library_api\\Migrations\\20241203175528_AlterarDataNascimentoParaAno.cs",
+              "ToolTip": "D:\\Instala\u00E7\u00F5es\\Livraria\\Library_api\\Library_api\\Migrations\\20241203175528_AlterarDataNascimentoParaAno.cs",
+              "RelativeToolTip": "Library_api\\Migrations\\20241203175528_AlterarDataNascimentoParaAno.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T17:55:28.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20241203172313_InitialCreate.cs",
+              "DocumentMoniker": "D:\\Instala\u00E7\u00F5es\\Livraria\\Library_api\\Library_api\\Migrations\\20241203172313_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Library_api\\Migrations\\20241203172313_InitialCreate.cs",
+              "ToolTip": "D:\\Instala\u00E7\u00F5es\\Livraria\\Library_api\\Library_api\\Migrations\\20241203172313_InitialCreate.cs",
+              "RelativeToolTip": "Library_api\\Migrations\\20241203172313_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T17:23:13.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LibraryContext.cs",
+              "DocumentMoniker": "D:\\Instala\u00E7\u00F5es\\Livraria\\Library_api\\Library_api\\Data\\LibraryContext.cs",
+              "RelativeDocumentMoniker": "Library_api\\Data\\LibraryContext.cs",
+              "ToolTip": "D:\\Instala\u00E7\u00F5es\\Livraria\\Library_api\\Library_api\\Data\\LibraryContext.cs",
+              "RelativeToolTip": "Library_api\\Data\\LibraryContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T17:11:16.957Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
