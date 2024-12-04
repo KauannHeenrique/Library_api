@@ -1,4 +1,5 @@
-﻿using Library_api.Data;
+﻿using api_lib.Requests;
+using Library_api.Data;
 using Library_api.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -22,7 +23,7 @@ namespace Library_api.Controllers
             return await _context.Livros.ToListAsync();
         }
 
-        [HttpGet("BuscarLivroPor{id}")]
+        [HttpGet("BuscarLivroPor/{id}")]
         public async Task<ActionResult<Livro>> GetLivro(int id)
         {
             var livro = await _context.Livros.FindAsync(id);
@@ -44,21 +45,28 @@ namespace Library_api.Controllers
             return CreatedAtAction(nameof(GetLivro), new { id = livro.Id }, livro);
         }
 
-        [HttpPut("AtualizarLivro{id}")]
-        public async Task<IActionResult> PutLivro(int id, Livro livro)
+        [HttpPut("AtualizarLivro/{id}")]
+        public async Task<IActionResult> PutLivro(int id, LivroRequest livro)
         {
-            if (id != livro.Id)
+            var livroEx = await _context.Livros.FindAsync(id);
+            
+            if (livroEx == null)
             {
-                return BadRequest();
+                return NotFound();
             }
 
-            _context.Entry(livro).State = EntityState.Modified;
+            livroEx.AutorLivro = livro.AutorLivro;
+            livroEx.TituloLivro = livro.TituloLivro;
+            livroEx.AnoLancamento = livro.AnoLancamento;
+            livroEx.QuantidadeDisponivel = livro.QuantidadeDisponivel;
+
+            _context.Livros.Update(livroEx);
             await _context.SaveChangesAsync();
 
             return NoContent();
         }
 
-        [HttpDelete("ExcluirLivro{id}")]
+        [HttpDelete("ExcluirLivro/{id}")]
         public async Task<IActionResult> DeleteLivro(int id)
         {
             var livro = await _context.Livros.FindAsync(id);
