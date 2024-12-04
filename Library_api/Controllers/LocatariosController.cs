@@ -1,4 +1,5 @@
-﻿using Library_api.Data;
+﻿using api_lib.Requests;
+using Library_api.Data;
 using Library_api.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -22,9 +23,14 @@ namespace Library_api.Controllers
             return await _context.Locatarios.ToListAsync();
         }
 
-        [HttpGet("buscarLocatario{id}")]
+        [HttpGet("buscarLocatario/{id}")]
         public async Task<ActionResult<Locatario>> GetLocatario(int id)
         {
+            if (id <= 0)
+            {
+                return BadRequest("ID inválido.");
+            }
+
             var locatario = await _context.Locatarios.FindAsync(id);
 
             if (locatario == null)
@@ -35,7 +41,7 @@ namespace Library_api.Controllers
             return locatario;
         }
 
-        [HttpPost("AdicionarLocatário")]
+        [HttpPost("AdicionarLocatario")]
         public async Task<ActionResult<Locatario>> PostLocatario(Locatario locatario)
         {
             _context.Locatarios.Add(locatario);
@@ -44,21 +50,32 @@ namespace Library_api.Controllers
             return CreatedAtAction(nameof(GetLocatario), new { id = locatario.Id }, locatario);
         }
 
-        [HttpPut("AtualizarLocatário{id}")]
-        public async Task<IActionResult> PutLocatario(int id, Locatario locatario)
+
+        [HttpPut("AtualizarLocatario/{id}")]
+        public async Task<IActionResult> PutLocatario(int id, LocatarioRequest locatario)
         {
-            if (id != locatario.Id)
+            if (id <= 0)  
             {
-                return BadRequest();
+                return BadRequest("ID inválido.");
             }
 
-            _context.Entry(locatario).State = EntityState.Modified;
+            var locatarioEx = await _context.Locatarios.FindAsync(id);
+
+            if (locatarioEx == null)
+            {
+                return NotFound();
+            }
+
+            locatarioEx.NomeLocatario = locatario.NomeLocatario;
+            locatarioEx.AnoNascimento = locatario.AnoNascimento;
+
+            _context.Locatarios.Update(locatarioEx);
             await _context.SaveChangesAsync();
 
             return NoContent();
         }
 
-        [HttpDelete("ExcluirLocatário{id}")]
+        [HttpDelete("ExcluirLocatario/{id}")]
         public async Task<IActionResult> DeleteLocatario(int id)
         {
             var locatario = await _context.Locatarios.FindAsync(id);

@@ -26,6 +26,11 @@ namespace Library_api.Controllers
         [HttpGet("BuscarLivroPor/{id}")]
         public async Task<ActionResult<Livro>> GetLivro(int id)
         {
+            if (id <= 0)
+            {
+                return BadRequest("ID inválido.");
+            }
+
             var livro = await _context.Livros.FindAsync(id);
 
             if (livro == null)
@@ -48,6 +53,11 @@ namespace Library_api.Controllers
         [HttpPut("AtualizarLivro/{id}")]
         public async Task<IActionResult> PutLivro(int id, LivroRequest livro)
         {
+            if (id <= 0)
+            {
+                return BadRequest("ID inválido.");
+            }
+
             var livroEx = await _context.Livros.FindAsync(id);
             
             if (livroEx == null)
@@ -69,6 +79,11 @@ namespace Library_api.Controllers
         [HttpDelete("ExcluirLivro/{id}")]
         public async Task<IActionResult> DeleteLivro(int id)
         {
+            if (id <= 0)
+            {
+                return BadRequest("ID inválido.");
+            }
+
             var livro = await _context.Livros.FindAsync(id);
             if (livro == null)
             {

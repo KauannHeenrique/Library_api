@@ -18,20 +18,23 @@ namespace Library_api.Controllers
             _context = context;
         }
 
-        // GET: api/Emprestimos/ExibirEmprestimos
         [HttpGet("ExibirEmprestimos")]
-        public async Task<ActionResult<IEnumerable<Emprestimo>>> GetEmprestimos()
+        public async Task<ActionResult<IEnumerable<Emprestimo>>> GetEmprestimo()
         {
             return await _context.Emprestimos
-                .Include(e => e.Livro)   // Inclui os dados do livro
-                .Include(e => e.Locatario) // Inclui os dados do locatário
+                .Include(r => r.Livro)
+                .Include(r => r.Locatario)
                 .ToListAsync();
         }
 
-        // GET: api/Emprestimos/buscarpor5
-        [HttpGet("buscarpor/{id}")]
+        [HttpGet("buscarEmprestimoPor/{id}")]
         public async Task<ActionResult<Emprestimo>> GetEmprestimo(int id)
         {
+            if (id <= 0)
+            {
+                return BadRequest("ID inválido.");
+            }
+
             var emprestimo = await _context.Emprestimos
                 .Include(e => e.Livro)
                 .Include(e => e.Locatario)
@@ -45,8 +48,7 @@ namespace Library_api.Controllers
             return emprestimo;
         }
 
-        // POST: api/Emprestimos/adicionar
-        [HttpPost("adicionar")]
+        [HttpPost("AdicionarEmprestimo")]
         public async Task<ActionResult<Emprestimo>> PostEmprestimo(LocacaoRequest emprestimo)
         {
             var livro = await _context.Livros.FindAsync(emprestimo.LivroId);
@@ -82,19 +84,14 @@ namespace Library_api.Controllers
             return CreatedAtAction(nameof(GetEmprestimo), new { id = locacaoReq.Id }, locacaoReq);
         }
 
-        [HttpGet]
-        public async Task<ActionResult<IEnumerable<Emprestimo>>> GetEmprestimo()
-        {
-            return await _context.Emprestimos
-                .Include(r => r.Livro)
-                .Include(r => r.Locatario)
-                .ToListAsync();
-        }
-
-        // PUT: api/Emprestimos/devolucao{id}
-        [HttpPut("devolucao/{id}")]
+        [HttpPut("DevolucaoLivro/{id}")]
         public async Task<IActionResult> PutDevolucao(int id)
         {
+            if (id <= 0)
+            {
+                return BadRequest("ID inválido.");
+            }
+
             var emprestimo = await _context.Emprestimos.FindAsync(id);
 
             if (emprestimo == null)
@@ -102,10 +99,8 @@ namespace Library_api.Controllers
                 return NotFound();
             }
 
-            // Atualiza a data de devolução
             emprestimo.DataDevolucao = DateTime.Now;
 
-            // Atualiza a quantidade disponível do livro
             var livro = await _context.Livros.FindAsync(emprestimo.LivroId);
             if (livro != null)
             {
@@ -120,7 +115,6 @@ namespace Library_api.Controllers
             return NoContent();
         }
 
-        // DELETE: api/Emprestimos/excluir5
         [HttpDelete("excluir/{id}")]
         public async Task<IActionResult> DeleteEmprestimo(int id)
         {
