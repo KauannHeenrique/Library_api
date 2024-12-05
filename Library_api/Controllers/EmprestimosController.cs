@@ -27,27 +27,6 @@ namespace Library_api.Controllers
                 .ToListAsync();
         }
 
-        [HttpGet("buscarEmprestimoPor/{id}")]
-        public async Task<ActionResult<Emprestimo>> GetEmprestimo(int id)
-        {
-            if (id <= 0)
-            {
-                return BadRequest("ID inválido.");
-            }
-
-            var emprestimo = await _context.Emprestimos
-                .Include(e => e.Livro)
-                .Include(e => e.Locatario)
-                .FirstOrDefaultAsync(e => e.Id == id);
-
-            if (emprestimo == null)
-            {
-                return NotFound();
-            }
-
-            return emprestimo;
-        }
-
         [HttpPost("AdicionarEmprestimo")]
         public async Task<ActionResult<Emprestimo>> PostEmprestimo(LocacaoRequest emprestimo)
         {
@@ -84,15 +63,16 @@ namespace Library_api.Controllers
             return CreatedAtAction(nameof(GetEmprestimo), new { id = locacaoReq.Id }, locacaoReq);
         }
 
-        [HttpPut("DevolucaoLivro/{id}")]
-        public async Task<IActionResult> PutDevolucao(int id)
+        [HttpPut("DevolucaoLivro")]
+        public async Task<IActionResult> PutDevolucao(LocacaoRequest locacao)
         {
-            if (id <= 0)
+            if (locacao.LivroId <= 0 || locacao.LocatarioId <= 0)
             {
-                return BadRequest("ID inválido.");
+                return BadRequest("ID do locatário e/ou livro inválido.");
             }
 
-            var emprestimo = await _context.Emprestimos.FindAsync(id);
+            var emprestimo = await _context.Emprestimos
+                .FirstOrDefaultAsync(e => e.LivroId == locacao.LivroId && e.LocatarioId == locacao.LocatarioId && e.DataDevolucao == null);
 
             if (emprestimo == null)
             {
@@ -102,10 +82,13 @@ namespace Library_api.Controllers
             emprestimo.DataDevolucao = DateTime.Now;
 
             var livro = await _context.Livros.FindAsync(emprestimo.LivroId);
-            if (livro != null)
+
+            if (livro == null)
             {
-                livro.QuantidadeDisponivel++;
+                return NotFound();
             }
+
+            livro.QuantidadeDisponivel++;
 
             _context.Entry(emprestimo).State = EntityState.Modified;
             _context.Entry(livro).State = EntityState.Modified;
