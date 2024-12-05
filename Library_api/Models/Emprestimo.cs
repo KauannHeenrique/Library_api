@@ -17,9 +17,9 @@ namespace Library_api.Models
         [Required]
         public int LocatarioId { get; set; }
         [ForeignKey("LocatarioId")]
-        public Locatario? Locatario { get; set; }  
+        public Locatario? Locatario { get; set; }
 
         public DateTime DataEmprestimo { get; set; }
-        public DateTime? DataDevolucao { get; set; } 
+        public DateTime? DataDevolucao { get; set; }
     }
 }

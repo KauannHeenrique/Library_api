@@ -97,20 +97,5 @@ namespace Library_api.Controllers
 
             return NoContent();
         }
-
-        [HttpDelete("excluir/{id}")]
-        public async Task<IActionResult> DeleteEmprestimo(int id)
-        {
-            var emprestimo = await _context.Emprestimos.FindAsync(id);
-            if (emprestimo == null)
-            {
-                return NotFound();
-            }
-
-            _context.Emprestimos.Remove(emprestimo);
-            await _context.SaveChangesAsync();
-
-            return NoContent();
-        }
     }
 }

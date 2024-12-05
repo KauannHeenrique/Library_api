@@ -23,15 +23,17 @@ namespace Library_api.Controllers
             return await _context.Livros.ToListAsync();
         }
 
-        [HttpGet("BuscarLivroPor/{id}")]
-        public async Task<ActionResult<Livro>> GetLivro(int id)
+        [HttpGet("BuscarLivroPor/{nomeLivro}")]
+        public async Task<ActionResult<Livro>> GetLivro(string nomeLivro)
         {
-            if (id <= 0)
+            if (nomeLivro == null)
             {
-                return BadRequest("ID inválido.");
+                return BadRequest("Livro não encontrado.");
             }
 
-            var livro = await _context.Livros.FindAsync(id);
+            var livro = await _context.Livros
+            .Where(l => l.TituloLivro.Contains(nomeLivro)) // Filtra os livros pelo nome
+            .FirstOrDefaultAsync();
 
             if (livro == null)
             {

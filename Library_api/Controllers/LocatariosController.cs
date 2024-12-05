@@ -74,20 +74,5 @@ namespace Library_api.Controllers
 
             return NoContent();
         }
-
-        [HttpDelete("ExcluirLocatario/{id}")]
-        public async Task<IActionResult> DeleteLocatario(int id)
-        {
-            var locatario = await _context.Locatarios.FindAsync(id);
-            if (locatario == null)
-            {
-                return NotFound();
-            }
-
-            _context.Locatarios.Remove(locatario);
-            await _context.SaveChangesAsync();
-
-            return NoContent();
-        }
     }
 }
