@@ -1,45 +1,45 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\kauan\\source\\repos\\Library_api\\",
+  "WorkspaceRootPath": "C:\\Users\\thiag\\Library_api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ED4D0718-4C3B-4CED-A8A7-B3E9E2777B84}|Library_api\\Library_api.csproj|c:\\users\\kauan\\source\\repos\\library_api\\library_api\\controllers\\livroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED4D0718-4C3B-4CED-A8A7-B3E9E2777B84}|Library_api\\Library_api.csproj|solutionrelative:library_api\\controllers\\livroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED4D0718-4C3B-4CED-A8A7-B3E9E2777B84}|Library_api\\Library_api.csproj|c:\\users\\kauan\\source\\repos\\library_api\\library_api\\requests\\livrorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED4D0718-4C3B-4CED-A8A7-B3E9E2777B84}|Library_api\\Library_api.csproj|solutionrelative:library_api\\requests\\livrorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED4D0718-4C3B-4CED-A8A7-B3E9E2777B84}|Library_api\\Library_api.csproj|c:\\users\\kauan\\source\\repos\\library_api\\library_api\\models\\emprestimo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED4D0718-4C3B-4CED-A8A7-B3E9E2777B84}|Library_api\\Library_api.csproj|solutionrelative:library_api\\models\\emprestimo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED4D0718-4C3B-4CED-A8A7-B3E9E2777B84}|Library_api\\Library_api.csproj|c:\\users\\kauan\\source\\repos\\library_api\\library_api\\controllers\\locatarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED4D0718-4C3B-4CED-A8A7-B3E9E2777B84}|Library_api\\Library_api.csproj|solutionrelative:library_api\\controllers\\locatarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED4D0718-4C3B-4CED-A8A7-B3E9E2777B84}|Library_api\\Library_api.csproj|c:\\users\\kauan\\source\\repos\\library_api\\library_api\\controllers\\emprestimoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{ED4D0718-4C3B-4CED-A8A7-B3E9E2777B84}|Library_api\\Library_api.csproj|c:\\users\\thiag\\library_api\\library_api\\controllers\\emprestimoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ED4D0718-4C3B-4CED-A8A7-B3E9E2777B84}|Library_api\\Library_api.csproj|solutionrelative:library_api\\controllers\\emprestimoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED4D0718-4C3B-4CED-A8A7-B3E9E2777B84}|Library_api\\Library_api.csproj|c:\\users\\kauan\\source\\repos\\library_api\\library_api\\models\\locatario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{ED4D0718-4C3B-4CED-A8A7-B3E9E2777B84}|Library_api\\Library_api.csproj|c:\\users\\thiag\\library_api\\library_api\\requests\\livrorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED4D0718-4C3B-4CED-A8A7-B3E9E2777B84}|Library_api\\Library_api.csproj|solutionrelative:library_api\\requests\\livrorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED4D0718-4C3B-4CED-A8A7-B3E9E2777B84}|Library_api\\Library_api.csproj|c:\\users\\thiag\\library_api\\library_api\\controllers\\locatarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED4D0718-4C3B-4CED-A8A7-B3E9E2777B84}|Library_api\\Library_api.csproj|solutionrelative:library_api\\controllers\\locatarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED4D0718-4C3B-4CED-A8A7-B3E9E2777B84}|Library_api\\Library_api.csproj|c:\\users\\thiag\\library_api\\library_api\\controllers\\livroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED4D0718-4C3B-4CED-A8A7-B3E9E2777B84}|Library_api\\Library_api.csproj|solutionrelative:library_api\\controllers\\livroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED4D0718-4C3B-4CED-A8A7-B3E9E2777B84}|Library_api\\Library_api.csproj|c:\\users\\thiag\\library_api\\library_api\\models\\emprestimo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED4D0718-4C3B-4CED-A8A7-B3E9E2777B84}|Library_api\\Library_api.csproj|solutionrelative:library_api\\models\\emprestimo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED4D0718-4C3B-4CED-A8A7-B3E9E2777B84}|Library_api\\Library_api.csproj|c:\\users\\thiag\\library_api\\library_api\\models\\locatario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ED4D0718-4C3B-4CED-A8A7-B3E9E2777B84}|Library_api\\Library_api.csproj|solutionrelative:library_api\\models\\locatario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED4D0718-4C3B-4CED-A8A7-B3E9E2777B84}|Library_api\\Library_api.csproj|c:\\users\\kauan\\source\\repos\\library_api\\library_api\\models\\livro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{ED4D0718-4C3B-4CED-A8A7-B3E9E2777B84}|Library_api\\Library_api.csproj|c:\\users\\thiag\\library_api\\library_api\\models\\livro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ED4D0718-4C3B-4CED-A8A7-B3E9E2777B84}|Library_api\\Library_api.csproj|solutionrelative:library_api\\models\\livro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED4D0718-4C3B-4CED-A8A7-B3E9E2777B84}|Library_api\\Library_api.csproj|c:\\users\\kauan\\source\\repos\\library_api\\library_api\\data\\librarycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{ED4D0718-4C3B-4CED-A8A7-B3E9E2777B84}|Library_api\\Library_api.csproj|c:\\users\\thiag\\library_api\\library_api\\data\\librarycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ED4D0718-4C3B-4CED-A8A7-B3E9E2777B84}|Library_api\\Library_api.csproj|solutionrelative:library_api\\data\\librarycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED4D0718-4C3B-4CED-A8A7-B3E9E2777B84}|Library_api\\Library_api.csproj|c:\\users\\kauan\\source\\repos\\library_api\\library_api\\requests\\locacaorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{ED4D0718-4C3B-4CED-A8A7-B3E9E2777B84}|Library_api\\Library_api.csproj|c:\\users\\thiag\\library_api\\library_api\\requests\\locacaorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ED4D0718-4C3B-4CED-A8A7-B3E9E2777B84}|Library_api\\Library_api.csproj|solutionrelative:library_api\\requests\\locacaorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED4D0718-4C3B-4CED-A8A7-B3E9E2777B84}|Library_api\\Library_api.csproj|c:\\users\\kauan\\source\\repos\\library_api\\library_api\\requests\\locatariorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{ED4D0718-4C3B-4CED-A8A7-B3E9E2777B84}|Library_api\\Library_api.csproj|c:\\users\\thiag\\library_api\\library_api\\requests\\locatariorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ED4D0718-4C3B-4CED-A8A7-B3E9E2777B84}|Library_api\\Library_api.csproj|solutionrelative:library_api\\requests\\locatariorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -50,41 +50,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LivrosController.cs",
-              "DocumentMoniker": "C:\\Users\\kauan\\source\\repos\\Library_api\\Library_api\\Controllers\\LivrosController.cs",
-              "RelativeDocumentMoniker": "Library_api\\Controllers\\LivrosController.cs",
-              "ToolTip": "C:\\Users\\kauan\\source\\repos\\Library_api\\Library_api\\Controllers\\LivrosController.cs",
-              "RelativeToolTip": "Library_api\\Controllers\\LivrosController.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAADgvzYAAAAbAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "LocatariosController.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\Library_api\\Library_api\\Controllers\\LocatariosController.cs",
+              "RelativeDocumentMoniker": "Library_api\\Controllers\\LocatariosController.cs",
+              "ToolTip": "C:\\Users\\thiag\\Library_api\\Library_api\\Controllers\\LocatariosController.cs",
+              "RelativeToolTip": "Library_api\\Controllers\\LocatariosController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T16:43:45.943Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T00:09:37.4Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "LivroRequest.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\Library_api\\Library_api\\Requests\\LivroRequest.cs",
+              "RelativeDocumentMoniker": "Library_api\\Requests\\LivroRequest.cs",
+              "ToolTip": "C:\\Users\\thiag\\Library_api\\Library_api\\Requests\\LivroRequest.cs",
+              "RelativeToolTip": "Library_api\\Requests\\LivroRequest.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T00:52:50.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Emprestimo.cs",
-              "DocumentMoniker": "C:\\Users\\kauan\\source\\repos\\Library_api\\Library_api\\Models\\Emprestimo.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\Library_api\\Library_api\\Models\\Emprestimo.cs",
               "RelativeDocumentMoniker": "Library_api\\Models\\Emprestimo.cs",
-              "ToolTip": "C:\\Users\\kauan\\source\\repos\\Library_api\\Library_api\\Models\\Emprestimo.cs",
+              "ToolTip": "C:\\Users\\thiag\\Library_api\\Library_api\\Models\\Emprestimo.cs",
               "RelativeToolTip": "Library_api\\Models\\Emprestimo.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAxwBcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T16:43:28.804Z",
+              "WhenOpened": "2024-12-05T16:43:28.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LivrosController.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\Library_api\\Library_api\\Controllers\\LivrosController.cs",
+              "RelativeDocumentMoniker": "Library_api\\Controllers\\LivrosController.cs",
+              "ToolTip": "C:\\Users\\thiag\\Library_api\\Library_api\\Controllers\\LivrosController.cs",
+              "RelativeToolTip": "Library_api\\Controllers\\LivrosController.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAADgvzYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T16:43:45.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmprestimosController.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\Library_api\\Library_api\\Controllers\\EmprestimosController.cs",
+              "RelativeDocumentMoniker": "Library_api\\Controllers\\EmprestimosController.cs",
+              "ToolTip": "C:\\Users\\thiag\\Library_api\\Library_api\\Controllers\\EmprestimosController.cs",
+              "RelativeToolTip": "Library_api\\Controllers\\EmprestimosController.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAAAFoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T16:44:04.217Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "Livro.cs",
-              "DocumentMoniker": "C:\\Users\\kauan\\source\\repos\\Library_api\\Library_api\\Models\\Livro.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\Library_api\\Library_api\\Models\\Livro.cs",
               "RelativeDocumentMoniker": "Library_api\\Models\\Livro.cs",
-              "ToolTip": "C:\\Users\\kauan\\source\\repos\\Library_api\\Library_api\\Models\\Livro.cs",
+              "ToolTip": "C:\\Users\\thiag\\Library_api\\Library_api\\Models\\Livro.cs",
               "RelativeToolTip": "Library_api\\Models\\Livro.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAgwA0AAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -92,24 +127,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LocatariosController.cs",
-              "DocumentMoniker": "C:\\Users\\kauan\\source\\repos\\Library_api\\Library_api\\Controllers\\LocatariosController.cs",
-              "RelativeDocumentMoniker": "Library_api\\Controllers\\LocatariosController.cs",
-              "ToolTip": "C:\\Users\\kauan\\source\\repos\\Library_api\\Library_api\\Controllers\\LocatariosController.cs",
-              "RelativeToolTip": "Library_api\\Controllers\\LocatariosController.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAYwEsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T00:09:37.4Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 7,
               "Title": "LibraryContext.cs",
-              "DocumentMoniker": "C:\\Users\\kauan\\source\\repos\\Library_api\\Library_api\\Data\\LibraryContext.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\Library_api\\Library_api\\Data\\LibraryContext.cs",
               "RelativeDocumentMoniker": "Library_api\\Data\\LibraryContext.cs",
-              "ToolTip": "C:\\Users\\kauan\\source\\repos\\Library_api\\Library_api\\Data\\LibraryContext.cs",
+              "ToolTip": "C:\\Users\\thiag\\Library_api\\Library_api\\Data\\LibraryContext.cs",
               "RelativeToolTip": "Library_api\\Data\\LibraryContext.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAQwA4AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -119,9 +141,9 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "Locatario.cs",
-              "DocumentMoniker": "C:\\Users\\kauan\\source\\repos\\Library_api\\Library_api\\Models\\Locatario.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\Library_api\\Library_api\\Models\\Locatario.cs",
               "RelativeDocumentMoniker": "Library_api\\Models\\Locatario.cs",
-              "ToolTip": "C:\\Users\\kauan\\source\\repos\\Library_api\\Library_api\\Models\\Locatario.cs",
+              "ToolTip": "C:\\Users\\thiag\\Library_api\\Library_api\\Models\\Locatario.cs",
               "RelativeToolTip": "Library_api\\Models\\Locatario.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAqwA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -129,36 +151,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LivroRequest.cs",
-              "DocumentMoniker": "C:\\Users\\kauan\\source\\repos\\Library_api\\Library_api\\Requests\\LivroRequest.cs",
-              "RelativeDocumentMoniker": "Library_api\\Requests\\LivroRequest.cs",
-              "ToolTip": "C:\\Users\\kauan\\source\\repos\\Library_api\\Library_api\\Requests\\LivroRequest.cs",
-              "RelativeToolTip": "Library_api\\Requests\\LivroRequest.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAiwAUAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T00:52:50.697Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EmprestimosController.cs",
-              "DocumentMoniker": "C:\\Users\\kauan\\source\\repos\\Library_api\\Library_api\\Controllers\\EmprestimosController.cs",
-              "RelativeDocumentMoniker": "Library_api\\Controllers\\EmprestimosController.cs",
-              "ToolTip": "C:\\Users\\kauan\\source\\repos\\Library_api\\Library_api\\Controllers\\EmprestimosController.cs",
-              "RelativeToolTip": "Library_api\\Controllers\\EmprestimosController.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAAwCUAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T16:44:04.217Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 8,
               "Title": "LocacaoRequest.cs",
-              "DocumentMoniker": "C:\\Users\\kauan\\source\\repos\\Library_api\\Library_api\\Requests\\LocacaoRequest.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\Library_api\\Library_api\\Requests\\LocacaoRequest.cs",
               "RelativeDocumentMoniker": "Library_api\\Requests\\LocacaoRequest.cs",
-              "ToolTip": "C:\\Users\\kauan\\source\\repos\\Library_api\\Library_api\\Requests\\LocacaoRequest.cs",
+              "ToolTip": "C:\\Users\\thiag\\Library_api\\Library_api\\Requests\\LocacaoRequest.cs",
               "RelativeToolTip": "Library_api\\Requests\\LocacaoRequest.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -168,9 +165,9 @@
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "LocatarioRequest.cs",
-              "DocumentMoniker": "C:\\Users\\kauan\\source\\repos\\Library_api\\Library_api\\Requests\\LocatarioRequest.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\Library_api\\Library_api\\Requests\\LocatarioRequest.cs",
               "RelativeDocumentMoniker": "Library_api\\Requests\\LocatarioRequest.cs",
-              "ToolTip": "C:\\Users\\kauan\\source\\repos\\Library_api\\Library_api\\Requests\\LocatarioRequest.cs",
+              "ToolTip": "C:\\Users\\thiag\\Library_api\\Library_api\\Requests\\LocatarioRequest.cs",
               "RelativeToolTip": "Library_api\\Requests\\LocatarioRequest.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwAQAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
