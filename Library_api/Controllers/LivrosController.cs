@@ -23,33 +23,48 @@ namespace Library_api.Controllers
             return await _context.Livros.ToListAsync();
         }
 
-        [HttpGet("BuscarLivroPor/{nomeLivro}")]
-        public async Task<ActionResult<Livro>> GetLivro(string nomeLivro)
+        [HttpGet("BuscarLivroPor")]
+        public async Task<ActionResult<IEnumerable<Livro>>> GetLivros([FromQuery] string? nomeLivro, [FromQuery] string? nomeAutor)
         {
-            if (nomeLivro == null)
+            var query = _context.Livros.AsQueryable();
+
+            if (!string.IsNullOrWhiteSpace(nomeLivro))
             {
-                return BadRequest("Livro não encontrado.");
+                query = query.Where(l => l.TituloLivro.Contains(nomeLivro));
             }
 
-            var livro = await _context.Livros
-            .Where(l => l.TituloLivro.Contains(nomeLivro)) // Filtra os livros pelo nome
-            .FirstOrDefaultAsync();
-
-            if (livro == null)
+            if (!string.IsNullOrWhiteSpace(nomeAutor))
             {
-                return NotFound();
+                query = query.Where(l => l.AutorLivro.Contains(nomeAutor));
             }
 
-            return livro;
+            var livros = await query.ToListAsync();
+
+            if (livros.Count == 0)
+            {
+                return NotFound("Nenhum livro encontrado.");
+            }
+
+            return Ok(livros);
         }
+
+
+
 
         [HttpPost("AdicionarLivro")]
         public async Task<ActionResult<Livro>> PostLivro(Livro livro)
         {
-            _context.Livros.Add(livro);
-            await _context.SaveChangesAsync();
+            try
+            {
+                _context.Livros.Add(livro);
+                await _context.SaveChangesAsync();
 
-            return CreatedAtAction(nameof(GetLivro), new { id = livro.Id }, livro);
+                return Ok(new { mensagem = "Livro adicionado com sucesso", livro });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { mensagem = "Erro ao adicionar livro", detalhes = ex.Message });
+            }
         }
 
         [HttpPut("AtualizarLivro/{id}")]
