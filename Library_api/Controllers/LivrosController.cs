@@ -110,7 +110,7 @@ namespace Library_api.Controllers
             _context.Livros.Remove(livro);
             await _context.SaveChangesAsync();
 
-            return NoContent();
+            return Ok();
         }
     }
 }
