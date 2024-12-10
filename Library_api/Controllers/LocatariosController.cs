@@ -23,22 +23,24 @@ namespace Library_api.Controllers
             return await _context.Locatarios.ToListAsync();
         }
 
-        [HttpGet("buscarLocatario/{id}")]
-        public async Task<ActionResult<Locatario>> GetLocatario(int id)
+        [HttpGet("BuscarLocatarioPor")]
+        public async Task<ActionResult<IEnumerable<Locatario>>> GetLocatario([FromQuery] string? nomeLocatario)
         {
-            if (id <= 0)
+            var query = _context.Locatarios.AsQueryable();
+
+            if (!string.IsNullOrWhiteSpace(nomeLocatario))
             {
-                return BadRequest("ID inválido.");
+                query = query.Where(l => l.NomeLocatario.Contains(nomeLocatario));
             }
 
-            var locatario = await _context.Locatarios.FindAsync(id);
+            var locatario = await query.ToListAsync();
 
-            if (locatario == null)
+            if (locatario.Count == 0)
             {
-                return NotFound();
+                return NotFound("Nenhum locatário encontrado.");
             }
 
-            return locatario;
+            return Ok(locatario);
         }
 
         [HttpPost("AdicionarLocatario")]

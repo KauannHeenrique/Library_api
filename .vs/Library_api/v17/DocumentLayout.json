@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Aluno\\Desktop\\Library_api\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{ED4D0718-4C3B-4CED-A8A7-B3E9E2777B84}|Library_api\\Library_api.csproj|c:\\users\\aluno\\desktop\\library_api\\library_api\\controllers\\locatarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED4D0718-4C3B-4CED-A8A7-B3E9E2777B84}|Library_api\\Library_api.csproj|solutionrelative:library_api\\controllers\\locatarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{ED4D0718-4C3B-4CED-A8A7-B3E9E2777B84}|Library_api\\Library_api.csproj|c:\\users\\aluno\\desktop\\library_api\\library_api\\controllers\\livroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ED4D0718-4C3B-4CED-A8A7-B3E9E2777B84}|Library_api\\Library_api.csproj|solutionrelative:library_api\\controllers\\livroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -31,10 +35,6 @@
       "RelativeMoniker": "D:0:0:{ED4D0718-4C3B-4CED-A8A7-B3E9E2777B84}|Library_api\\Library_api.csproj|solutionrelative:library_api\\requests\\livrorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED4D0718-4C3B-4CED-A8A7-B3E9E2777B84}|Library_api\\Library_api.csproj|c:\\users\\aluno\\desktop\\library_api\\library_api\\controllers\\locatarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED4D0718-4C3B-4CED-A8A7-B3E9E2777B84}|Library_api\\Library_api.csproj|solutionrelative:library_api\\controllers\\locatarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{ED4D0718-4C3B-4CED-A8A7-B3E9E2777B84}|Library_api\\Library_api.csproj|c:\\users\\aluno\\desktop\\library_api\\library_api\\controllers\\emprestimoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ED4D0718-4C3B-4CED-A8A7-B3E9E2777B84}|Library_api\\Library_api.csproj|solutionrelative:library_api\\controllers\\emprestimoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -54,11 +54,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Emprestimo.cs",
               "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\Library_api\\Library_api\\Models\\Emprestimo.cs",
               "RelativeDocumentMoniker": "Library_api\\Models\\Emprestimo.cs",
@@ -70,7 +70,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Locatario.cs",
               "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\Library_api\\Library_api\\Models\\Locatario.cs",
               "RelativeDocumentMoniker": "Library_api\\Models\\Locatario.cs",
@@ -82,20 +82,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "LivrosController.cs",
               "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\Library_api\\Library_api\\Controllers\\LivrosController.cs",
               "RelativeDocumentMoniker": "Library_api\\Controllers\\LivrosController.cs",
               "ToolTip": "C:\\Users\\Aluno\\Desktop\\Library_api\\Library_api\\Controllers\\LivrosController.cs",
               "RelativeToolTip": "Library_api\\Controllers\\LivrosController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAACAAAAAAAAAAAAAgwDAAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T16:43:45.943Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T16:43:45.943Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "LocatarioRequest.cs",
               "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\Library_api\\Library_api\\Requests\\LocatarioRequest.cs",
               "RelativeDocumentMoniker": "Library_api\\Requests\\LocatarioRequest.cs",
@@ -107,15 +106,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "LocatariosController.cs",
               "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\Library_api\\Library_api\\Controllers\\LocatariosController.cs",
               "RelativeDocumentMoniker": "Library_api\\Controllers\\LocatariosController.cs",
               "ToolTip": "C:\\Users\\Aluno\\Desktop\\Library_api\\Library_api\\Controllers\\LocatariosController.cs",
               "RelativeToolTip": "Library_api\\Controllers\\LocatariosController.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AQIAABsAAAAAAAAAAADwvyQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T00:09:37.4Z"
+              "WhenOpened": "2024-12-05T00:09:37.4Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -131,7 +131,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "LocacaoRequest.cs",
               "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\Library_api\\Library_api\\Requests\\LocacaoRequest.cs",
               "RelativeDocumentMoniker": "Library_api\\Requests\\LocacaoRequest.cs",
@@ -143,7 +143,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Livro.cs",
               "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\Library_api\\Library_api\\Models\\Livro.cs",
               "RelativeDocumentMoniker": "Library_api\\Models\\Livro.cs",
@@ -155,7 +155,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "LivroRequest.cs",
               "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\Library_api\\Library_api\\Requests\\LivroRequest.cs",
               "RelativeDocumentMoniker": "Library_api\\Requests\\LivroRequest.cs",

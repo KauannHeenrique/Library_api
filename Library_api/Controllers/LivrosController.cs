@@ -48,9 +48,6 @@ namespace Library_api.Controllers
             return Ok(livros);
         }
 
-
-
-
         [HttpPost("AdicionarLivro")]
         public async Task<ActionResult<Livro>> PostLivro(Livro livro)
         {
