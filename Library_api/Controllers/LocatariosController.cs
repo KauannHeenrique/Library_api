@@ -24,32 +24,58 @@ namespace Library_api.Controllers
         }
 
         [HttpGet("BuscarLocatarioPor")]
-        public async Task<ActionResult<IEnumerable<Locatario>>> GetLocatario([FromQuery] string? nomeLocatario)
+        public async Task<ActionResult<IEnumerable<Locatario>>> GetLocatario([FromQuery] string? nomeLocatario, int? anoNascimento)
         {
             var query = _context.Locatarios.AsQueryable();
 
             if (!string.IsNullOrWhiteSpace(nomeLocatario))
             {
-                query = query.Where(l => l.NomeLocatario.Contains(nomeLocatario));
+                query = query.Where(loc => loc.NomeLocatario.Contains(nomeLocatario));
             }
 
-            var locatario = await query.ToListAsync();
+            if (anoNascimento.HasValue)
+            {
+                query = query.Where(loc => loc.AnoNascimento == anoNascimento.Value);
+            }
 
-            if (locatario.Count == 0)
+            var locatarios = await query.ToListAsync();
+
+            if (locatarios.Count == 0)
             {
                 return NotFound("Nenhum locatário encontrado.");
             }
 
-            return Ok(locatario);
+            return Ok(locatarios);
         }
 
         [HttpPost("AdicionarLocatario")]
-        public async Task<ActionResult<Locatario>> PostLocatario(Locatario locatario)
+        public async Task<ActionResult<Livro>> PostLocatario(Locatario locatario)
         {
-            _context.Locatarios.Add(locatario);
-            await _context.SaveChangesAsync();
+            try
+            {
+                if (locatario == null)
+                {
+                    return BadRequest(new { mensagem = "Por favor, preencha todos os campos" });
+                }
 
-            return CreatedAtAction(nameof(GetLocatario), new { id = locatario.Id }, locatario);
+                var locatarioFirst = await _context.Locatarios.FirstOrDefaultAsync(loc => loc.NomeLocatario == locatario.NomeLocatario
+                && loc.AnoNascimento == locatario.AnoNascimento);
+
+                if (locatarioFirst != null)
+                {
+                    return BadRequest(new { mensagem = "Locatário com nome e ano de nascimento já existe. Adicione mais detalhes." });
+                }
+
+
+                _context.Locatarios.Add(locatario);
+                await _context.SaveChangesAsync();
+
+                return Ok(new { mensagem = "Locatário cadastrado com sucesso!", locatario });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { mensagem = "Erro ao cadastrar locatário!", detalhes = ex.Message });
+            }
         }
 
 

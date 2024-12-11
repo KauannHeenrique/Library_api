@@ -53,6 +53,17 @@ namespace Library_api.Controllers
         {
             try
             {
+                if (livro == null) {
+                    return BadRequest(new { mensagem = "Por favor, preencha todos os campos" });
+                }
+
+                var livroFirst = await _context.Livros.FirstOrDefaultAsync(l => l.AutorLivro == livro.AutorLivro && 
+                l.TituloLivro == livro.TituloLivro && l.AnoLancamento == livro.AnoLancamento);
+
+                if (livroFirst != null) {
+                    return BadRequest(new { mensagem = "Este livro já está cadastrado no acervo!" } );
+                }
+
                 _context.Livros.Add(livro);
                 await _context.SaveChangesAsync();
 
