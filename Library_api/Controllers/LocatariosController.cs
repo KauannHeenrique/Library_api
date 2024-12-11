@@ -80,7 +80,7 @@ namespace Library_api.Controllers
 
 
         [HttpPut("AtualizarLocatario/{id}")]
-        public async Task<IActionResult> PutLocatario(int id, LocatarioRequest locatario)
+        public async Task<IActionResult> PutLocatario(int id, [FromBody] LocatarioRequest locatario)
         {
             if (id <= 0)  
             {

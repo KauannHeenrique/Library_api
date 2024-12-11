@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\thiag\\OneDrive\\\u00C1rea de Trabalho\\Kauann\\api_livraria_allan\\",
+  "WorkspaceRootPath": "C:\\Users\\kauan\\OneDrive\\\u00C1rea de Trabalho\\projeto_final\\Library_api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ED4D0718-4C3B-4CED-A8A7-B3E9E2777B84}|Library_api\\Library_api.csproj|c:\\users\\thiag\\onedrive\\\u00E1rea de trabalho\\kauann\\api_livraria_allan\\library_api\\controllers\\locatarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{ED4D0718-4C3B-4CED-A8A7-B3E9E2777B84}|Library_api\\Library_api.csproj|c:\\users\\kauan\\onedrive\\\u00E1rea de trabalho\\projeto_final\\library_api\\library_api\\controllers\\locatarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ED4D0718-4C3B-4CED-A8A7-B3E9E2777B84}|Library_api\\Library_api.csproj|solutionrelative:library_api\\controllers\\locatarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED4D0718-4C3B-4CED-A8A7-B3E9E2777B84}|Library_api\\Library_api.csproj|c:\\users\\thiag\\onedrive\\\u00E1rea de trabalho\\kauann\\api_livraria_allan\\library_api\\controllers\\livroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{ED4D0718-4C3B-4CED-A8A7-B3E9E2777B84}|Library_api\\Library_api.csproj|c:\\users\\kauan\\onedrive\\\u00E1rea de trabalho\\projeto_final\\library_api\\library_api\\controllers\\livroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ED4D0718-4C3B-4CED-A8A7-B3E9E2777B84}|Library_api\\Library_api.csproj|solutionrelative:library_api\\controllers\\livroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED4D0718-4C3B-4CED-A8A7-B3E9E2777B84}|Library_api\\Library_api.csproj|c:\\users\\thiag\\onedrive\\\u00E1rea de trabalho\\kauann\\api_livraria_allan\\library_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{ED4D0718-4C3B-4CED-A8A7-B3E9E2777B84}|Library_api\\Library_api.csproj|c:\\users\\kauan\\onedrive\\\u00E1rea de trabalho\\projeto_final\\library_api\\library_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ED4D0718-4C3B-4CED-A8A7-B3E9E2777B84}|Library_api\\Library_api.csproj|solutionrelative:library_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -28,11 +28,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "LocatariosController.cs",
-              "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\\u00C1rea de Trabalho\\Kauann\\api_livraria_allan\\Library_api\\Controllers\\LocatariosController.cs",
+              "DocumentMoniker": "C:\\Users\\kauan\\OneDrive\\\u00C1rea de Trabalho\\projeto_final\\Library_api\\Library_api\\Controllers\\LocatariosController.cs",
               "RelativeDocumentMoniker": "Library_api\\Controllers\\LocatariosController.cs",
-              "ToolTip": "C:\\Users\\thiag\\OneDrive\\\u00C1rea de Trabalho\\Kauann\\api_livraria_allan\\Library_api\\Controllers\\LocatariosController.cs",
+              "ToolTip": "C:\\Users\\kauan\\OneDrive\\\u00C1rea de Trabalho\\projeto_final\\Library_api\\Library_api\\Controllers\\LocatariosController.cs",
               "RelativeToolTip": "Library_api\\Controllers\\LocatariosController.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAIAxwCUAAABVAAAAAAAAAA==",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAcwGcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-11T11:41:45.508Z",
               "EditorCaption": ""
@@ -41,11 +41,11 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "LivrosController.cs",
-              "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\\u00C1rea de Trabalho\\Kauann\\api_livraria_allan\\Library_api\\Controllers\\LivrosController.cs",
+              "DocumentMoniker": "C:\\Users\\kauan\\OneDrive\\\u00C1rea de Trabalho\\projeto_final\\Library_api\\Library_api\\Controllers\\LivrosController.cs",
               "RelativeDocumentMoniker": "Library_api\\Controllers\\LivrosController.cs",
-              "ToolTip": "C:\\Users\\thiag\\OneDrive\\\u00C1rea de Trabalho\\Kauann\\api_livraria_allan\\Library_api\\Controllers\\LivrosController.cs",
+              "ToolTip": "C:\\Users\\kauan\\OneDrive\\\u00C1rea de Trabalho\\projeto_final\\Library_api\\Library_api\\Controllers\\LivrosController.cs",
               "RelativeToolTip": "Library_api\\Controllers\\LivrosController.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAYwC0AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAACAAAAAAAAAAAAAkwCsAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-11T11:36:07.965Z",
               "EditorCaption": ""
@@ -54,14 +54,13 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\thiag\\OneDrive\\\u00C1rea de Trabalho\\Kauann\\api_livraria_allan\\Library_api\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\kauan\\OneDrive\\\u00C1rea de Trabalho\\projeto_final\\Library_api\\Library_api\\Program.cs",
               "RelativeDocumentMoniker": "Library_api\\Program.cs",
-              "ToolTip": "C:\\Users\\thiag\\OneDrive\\\u00C1rea de Trabalho\\Kauann\\api_livraria_allan\\Library_api\\Program.cs",
+              "ToolTip": "C:\\Users\\kauan\\OneDrive\\\u00C1rea de Trabalho\\projeto_final\\Library_api\\Library_api\\Program.cs",
               "RelativeToolTip": "Library_api\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T02:54:25.508Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-08T02:54:25.508Z"
             }
           ]
         }
