@@ -45,7 +45,7 @@ namespace Library_api.Controllers
 
             if (livro.QuantidadeDisponivel <= 0)
             {
-                return BadRequest("Não há exemplares disponíveis .");
+                return BadRequest("Não há exemplares disponíveis.");
             }
 
             livro.QuantidadeDisponivel -= 1;

@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\kauan\\OneDrive\\\u00C1rea de Trabalho\\projeto_final\\Library_api\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{ED4D0718-4C3B-4CED-A8A7-B3E9E2777B84}|Library_api\\Library_api.csproj|c:\\users\\kauan\\onedrive\\\u00E1rea de trabalho\\projeto_final\\library_api\\library_api\\controllers\\emprestimoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED4D0718-4C3B-4CED-A8A7-B3E9E2777B84}|Library_api\\Library_api.csproj|solutionrelative:library_api\\controllers\\emprestimoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{ED4D0718-4C3B-4CED-A8A7-B3E9E2777B84}|Library_api\\Library_api.csproj|c:\\users\\kauan\\onedrive\\\u00E1rea de trabalho\\projeto_final\\library_api\\library_api\\controllers\\locatarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ED4D0718-4C3B-4CED-A8A7-B3E9E2777B84}|Library_api\\Library_api.csproj|solutionrelative:library_api\\controllers\\locatarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,19 +31,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "EmprestimosController.cs",
+              "DocumentMoniker": "C:\\Users\\kauan\\OneDrive\\\u00C1rea de Trabalho\\projeto_final\\Library_api\\Library_api\\Controllers\\EmprestimosController.cs",
+              "RelativeDocumentMoniker": "Library_api\\Controllers\\EmprestimosController.cs",
+              "ToolTip": "C:\\Users\\kauan\\OneDrive\\\u00C1rea de Trabalho\\projeto_final\\Library_api\\Library_api\\Controllers\\EmprestimosController.cs",
+              "RelativeToolTip": "Library_api\\Controllers\\EmprestimosController.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAcwFEAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T02:30:48.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "LocatariosController.cs",
               "DocumentMoniker": "C:\\Users\\kauan\\OneDrive\\\u00C1rea de Trabalho\\projeto_final\\Library_api\\Library_api\\Controllers\\LocatariosController.cs",
               "RelativeDocumentMoniker": "Library_api\\Controllers\\LocatariosController.cs",
               "ToolTip": "C:\\Users\\kauan\\OneDrive\\\u00C1rea de Trabalho\\projeto_final\\Library_api\\Library_api\\Controllers\\LocatariosController.cs",
               "RelativeToolTip": "Library_api\\Controllers\\LocatariosController.cs",
-              "ViewState": "AgIAAFgAAAAAAAAAAAAcwGgAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAIwGgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-11T11:41:45.508Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "LivrosController.cs",
               "DocumentMoniker": "C:\\Users\\kauan\\OneDrive\\\u00C1rea de Trabalho\\projeto_final\\Library_api\\Library_api\\Controllers\\LivrosController.cs",
               "RelativeDocumentMoniker": "Library_api\\Controllers\\LivrosController.cs",
@@ -47,12 +64,11 @@
               "RelativeToolTip": "Library_api\\Controllers\\LivrosController.cs",
               "ViewState": "AgIAACAAAAAAAAAAAAAkwCsAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T11:36:07.965Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-11T11:36:07.965Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\kauan\\OneDrive\\\u00C1rea de Trabalho\\projeto_final\\Library_api\\Library_api\\Program.cs",
               "RelativeDocumentMoniker": "Library_api\\Program.cs",
